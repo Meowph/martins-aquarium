@@ -6,7 +6,7 @@ for (const fish of allFish) {
     console.log(fish)
 }
 // Import the FishList function from the correct module
-import {FishList} from './FishList.js'
+import {FishList} from './fishlist.js'
 
 /*
     What is the CSS selector for the element where you
