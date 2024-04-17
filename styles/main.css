@@ -13,7 +13,7 @@ header {
   image-rendering: auto;
 }
 
-.tanktips {
+/*.tanktips {
   border: 2px solid;
   position: absolute;
   right: 0;
@@ -22,26 +22,24 @@ header {
   margin: 10px;
   text-align: left;
   padding: 10%;
-}
+}*/
 
-h4 {
+/*h4 {
   padding: 0;
   margin: 10px;
-  text-align: center;
+  text-align: center;*/
 }
 
 .marloninfo {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  border: 2px solid;
-  position:sticky;
-  left: 0;
+  justify-content: space-evenly;
 }
 
 .lawnmowerinfo {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .markinfo {
