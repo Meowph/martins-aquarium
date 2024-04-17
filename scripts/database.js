@@ -38,6 +38,7 @@ const database = {
 {
   name: "Sam", //Blue Green Chromis
   size: 4,
+  food:"Plankton",
   "scientific name": "Chromis viridis",
   "pairs or alone": "Pairs" 
 },

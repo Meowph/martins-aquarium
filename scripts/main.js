@@ -1,4 +1,4 @@
-import { getFish } from './database.js'
+import { getFish } from "./database.js"
 
 const allFish = getFish()
 
@@ -19,3 +19,5 @@ const parentHTMLElement = document.querySelector("#container")
 
 
 parentHTMLElement.innerHTML = FishList()
+
+//Note: The imported function is wrapped in curly braces. This is needed for anything that is exported from a module that isn't the default export.
