@@ -4,43 +4,50 @@ const database = {
           name: "Marlon", //Clown Fish
           size: 4.3,
           food: "Crustaceans",
-          "scientific name": "Amphiprion Ocellaris",
-          "pairs or alone": "Pairs" 
+          species: "Clown Fish (Amphiprion ocellaris)",
+          location: "Eastern Indian Ocean and Western Pacific Ocean"
+
+          
       },
       {
         name: "Benny", //Lawnmower Blenny
         size: 5,
         food: "Algea",
-        "scientific name": "Salarias fasciatus",
-        "pairs or alone": "Pairs" 
+        species: "Lawnmower Blenny (Salarias fasciatus)",
+        location: "Red Sea, Indian Ocean, and Pacific Ocean"
+         
     },
     {
       name: "Mark", //Six Line Wrasse
       size: 4,
       food: "Anything that fits in its mouth",
-      "scientific name": "Pseudocheilinus hexataenia",
-      "pairs or alone": "alone" 
+      species: "Six Line Wrasse (Pseudocheilinus hexataenia)",
+      location: "Coast of Fiji"
+      
   },
   {
     name: "Francheska", //Firefish Goby
     size: 3,
     food: "Plankton",
-    "scientific name": "Nemateleotris magnifica",
-    "pairs or alone": "Either or" 
+    species: "Firefish Goby (Nemateleotris magnifica)",
+    location: "Indian and Pacific Oceans"
+    
 },
 {
   name: "Sunny", //Yellow Watchman Goby
   size: 4,
   food: "Algea",
-  "scientific name": "Cryptocentrus cinctus",
-  "pairs or alone": "Either or" 
+  species: "Yellow Watchman Goby (Cryptocentrus cinctus)",
+  location: "Coastal Bays and Lagoons in the Western Pacific"
+  
 },
 {
   name: "Sam", //Blue Green Chromis
   size: 4,
   food:"Plankton",
-  "scientific name": "Chromis viridis",
-  "pairs or alone": "Pairs" 
+  species: "Blue Green Chromis (Chromis viridis)",
+  location: "Tropical waters of the Pacific Ocean, East of Philippines, New Guinea and Eastern Australia"
+  
 },
   ]
 }
