@@ -6,7 +6,7 @@ for (const fish of allFish) {
     console.log(fish)
 }
 // Import the FishList function from the correct module
-import {fishes} from './FishList.js'
+import {FishList} from './FishList.js'
 
 /*
     What is the CSS selector for the element where you
@@ -15,7 +15,7 @@ import {fishes} from './FishList.js'
     Use . for elements with a "class" attribute
     Use # for elements with an "id" attribute
  */
-const parentHTMLElement = document.querySelector("#container")
+const parentHTMLElement = document.querySelector(".container")
 
 
 parentHTMLElement.innerHTML = FishList()
