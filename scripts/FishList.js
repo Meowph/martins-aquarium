@@ -6,14 +6,14 @@ export const fishlist = () => {
     let allfishes = getfish()
 
     // Start building a string filled with HTML syntax
-    let fishlistHTML = '<div class="fish-List">'
+    let fishlistHTML = '<div class="fish-list">'
 
     // Create HTML representations of each fish here
-    for (const fish of allfishes) {
+    for (let fish of allfishes) {
 
         // Why is there a backtick used for this string?
-        fishlistHTML += `<div class="fishbox">
-         <ul>
+        fishlistHTML += `<div>
+         <ul  class="fish-list">
             <h1>Name: ${fish.name}</h1>
             <li> Size: ${fish.size}</li>
             <li>Food: ${fish.food}</li>
