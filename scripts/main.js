@@ -6,7 +6,7 @@ for (const fish of allFish) {
     console.log(fish)
 }
 // Import the FishList function from the correct module
-import {FishList} from './fishlist.js'
+import {fishlist} from './fishlist.js'
 
 /*
     What is the CSS selector for the element where you
@@ -18,6 +18,6 @@ import {FishList} from './fishlist.js'
 const parentHTMLElement = document.querySelector(".container")
 
 
-parentHTMLElement.innerHTML = FishList()
+parentHTMLElement.innerHTML = fishlist()
 
 //Note: The imported function is wrapped in curly braces. This is needed for anything that is exported from a module that isn't the default export.
