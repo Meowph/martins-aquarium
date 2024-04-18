@@ -12,11 +12,11 @@ h1 {
 }
 
 /* Style the links inside the navigation bar */
-.topnav li, a {
+.topnav ul, a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
   padding: 11px 10px;
+  justify-content: center;
   text-decoration: none;
   font-size: 17px;
 }
@@ -39,45 +39,34 @@ li {
   color: white;
 }
 
-aside {
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  font-style: italic;
-  border: 1px solid black;
- }
 
-/*.fish {
-  display: flex;
-  border: solid;
-  flex-direction: row;
+.fish__image {
+  max-width: 22rem;
+  max-height: 11rem;
 }
-.fishbox {
-  border: 1px solid black;
-  margin: 1em;
+.fishes {
   display: flex;
-}*/
-
-
-.fishpics {
-  margin: 2px;
-  height: 100px;
-  width: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 4rem;
 }
-
-.fishinfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.fish {
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Montserrat', sans-serif;
+}
+.fish__name-text {
+  /* color: #FF5733; */
+  color: black;
 }
 
 .quotes {
-  border: solid 2px;
-  font-size: 13px;
-  padding: 5px;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 3em;
 }
 
 .locationinfo {
@@ -94,14 +83,27 @@ aside {
   justify-content: right;
 }
 
-/*.box {
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content: space-around;
+.tipsHeader {
+  text-align: center;
 }
-.box div {
-  width: 100px;
-  height: 100px
-};*/
+.tips {
+  margin-right: 4em;
+  margin-left: 4em;
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+}
 
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.location {
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
