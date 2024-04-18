@@ -39,15 +39,51 @@ li {
   color: white;
 }
 
-.fishlist {
-  border: 1px solid black;
-  margin: 1em;
-  display: flex;
-  flex-direction: row;
-}
 
-.fish-card {
+
+.fish {
   display: flex;
   border: solid;
   flex-direction: row;
+}
+
+.fishbox {
+  border: 1px solid black;
+  margin: 1em;
+  display: flex;
+}
+
+.fishpics {
+  margin: 2px;
+  height: 100px;
+  width: 100px;
+}
+
+.fishinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.quotes {
+  border: solid 2px;
+  font-size: 13px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.locationinfo {
+  display: flex;
+  border: solid 2px;
+  margin: 5px;
+  font-size: 13px;
+  padding: 3px;
+}
+
+.tankinfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
 }
